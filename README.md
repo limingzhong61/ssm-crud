@@ -1,2 +1,3 @@
-# ssm-crud-
-观看尚硅谷SSM整合视频教程所写
+# ssm-crud
+## 使用技术
+Spring+SpringMVC+Mybatis+Bootstrap

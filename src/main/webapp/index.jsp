@@ -596,7 +596,6 @@
 						success: function(result) {
 							alert(result.msg);
 							//回到当前页面
-							if(currentPage == )
 							to_page(currentPage);
 							$("#check_all").prop("checked", false);
 						}

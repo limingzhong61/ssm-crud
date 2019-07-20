@@ -9,18 +9,18 @@ Spring+SpringMVC+Mybatis+Bootstrap
 
 使用工具eclipse，在eclipse导入文件即可使用
 
-![](C:\Users\11623\Desktop\summary.png)
+![Image text](https://github.com/NicolasCoder/ssm-crud/blob/master/showImgs/summary.png)
 
 ## 图片演示：
 
 主界面：
 
-![](C:\Users\11623\Desktop\ssm_crud.png)
+![Image text](https://github.com/NicolasCoder/ssm-crud/blob/master/showImgs/ssm_crud.png)
 
 员工添加：
 
-![](C:\Users\11623\Desktop\add.png)
+![Image text](https://github.com/NicolasCoder/ssm-crud/blob/master/showImgs/add.png)
 
 员工修改：
 
-![](C:\Users\11623\Desktop\alter.png)
+![Image text](https://github.com/NicolasCoder/ssm-crud/blob/master/showImgs/alter.png)

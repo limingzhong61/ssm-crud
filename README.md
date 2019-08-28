@@ -10,7 +10,7 @@ Spring+SpringMVC+Mybatis+Bootstrap
 
 1. 使用工具eclipse，在eclipse导入文件即可使用
 2. 可使用文件中ssm_crud.sql的sql来创建数据库
-3. 注意修改ssm-crud/src/main/resources/目录下的dbconfig.properties中的jdbc.jdbcUrl、jdbc.user、jdbc.password
+3. 注意修改数据库信息：ssm-crud/src/main/resources/目录下的dbconfig.properties中的jdbc.jdbcUrl、jdbc.user、jdbc.password
 
 ![Image text](https://github.com/NicolasCoder/ssm-crud/blob/master/showImgs/summary.png)
 

@@ -12,6 +12,7 @@ File Encoding         : 65001
 
 Date: 2019-07-20 20:38:55
 */
+CREATE DATABASE ssm_crud
 
 SET FOREIGN_KEY_CHECKS=0;
 

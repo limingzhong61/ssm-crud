@@ -3,6 +3,10 @@
 
 bilibili视频网址：https://www.bilibili.com/video/av35988777/?p=35
 
+使用工具：  
+apache-tomcat-9.0.20   
+mysql-5.5.62-winx64
+
 ## 使用技术
 
 Spring+SpringMVC+Mybatis+Bootstrap

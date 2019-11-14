@@ -16,7 +16,7 @@
     <plugin interceptor="com.github.pagehelper.PageInterceptor">
         <!-- 使用下面的方式配置参数，后面会有所有的参数介绍 -->
         <!-- 分页参数合理化 -->
-        <property name="resonable" value="true"/>
+        <property name="reasonable" value="true"/>
 	</plugin>
 </plugins>
 </configuration>

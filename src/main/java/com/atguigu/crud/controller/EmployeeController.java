@@ -179,7 +179,6 @@ public class EmployeeController {
 //	@RequestMapping("/emps")
 	public String getEmployees(@RequestParam(value = "pageNumber", defaultValue = "1") Integer pageNumber,
 			Model model) {
-
 		// 引入分页插件PageHleper
 		// 在查询之前调用即可
 		PageHelper.startPage(pageNumber, 5);

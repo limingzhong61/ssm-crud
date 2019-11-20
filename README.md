@@ -11,7 +11,7 @@ mysql-5.5.62-winx64
 
 Spring+SpringMVC+Mybatis+Bootstrap
 ## 使用
-> 注：使用前需要配置maven环境
+> 注：使用前需要配置maven环境  
 > 使用中遇到问题可提交issue，+qq讨论
 
 1. 使用工具eclipse，在eclipse导入文件即可使用

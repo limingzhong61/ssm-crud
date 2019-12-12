@@ -11,9 +11,11 @@ mysql-5.5.62-winx64
 
 Spring+SpringMVC+Mybatis+Bootstrap
 ## 使用
+> 注：使用前需要配置maven环境  
+> 使用中遇到问题可提交issue，+qq讨论
 
 1. 使用工具eclipse，在eclipse导入文件即可使用
-2. 新建数据库ssm_crud，运行项目里面的ssm_crud.sql
+2. 通过运行项目里面的ssm_crud.sql来导入数据库结构
 3. 注意修改数据库信息：ssm-crud/src/main/resources/目录下的dbconfig.properties中的jdbc.jdbcUrl、jdbc.user、jdbc.password
 
 ![Image text](https://github.com/NicolasCoder/ssm-crud/blob/master/showImgs/summary.png)

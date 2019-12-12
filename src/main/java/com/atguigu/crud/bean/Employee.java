@@ -4,11 +4,11 @@ import javax.validation.constraints.Pattern;
 
 public class Employee {
 	private Integer empId;
-	@Pattern(regexp = "(^[a-zA-Z0-9_-]{4,16}$)|(^[\\\\u2E80-\\\\u9FFF]{2,5})", message = "用户名必须是4-16位英文数字或2-5位中文")
+	@Pattern(regexp = "(^[a-zA-Z0-9_-]{4,16}$)|(^[\\u2E80-\\u9FFF]{2,5})", message = "用户名必须是4-16位英文数字或2-5位中文")
 	private String empName;
 
 	private String gender;
-	//@Email
+	// @Email
 	@Pattern(regexp = "^([a-zA-Z0-9_\\.-]+)@([\\da-z\\.-]+)\\.([a-z\\.]{2,6})$", message = "jsr303邮箱格式错误")
 	private String email;
 

@@ -9,7 +9,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
-import com.atguigu.crud.bean.Department;
 import com.atguigu.crud.bean.Employee;
 import com.atguigu.crud.dao.DepartmentMapper;
 import com.atguigu.crud.dao.EmployeeMapper;

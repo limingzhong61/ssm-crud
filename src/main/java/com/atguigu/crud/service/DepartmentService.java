@@ -12,8 +12,8 @@ import com.atguigu.crud.dao.DepartmentMapper;
 public class DepartmentService {
 	@Autowired
 	private DepartmentMapper departmentMapper;
-	
-	public List<Department> getDepts(){
+
+	public List<Department> getDepts() {
 		return departmentMapper.selectByExample(null);
 	}
 }

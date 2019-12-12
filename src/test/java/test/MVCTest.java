@@ -43,24 +43,25 @@ public class MVCTest {
 	}
 
 	@Test
+	@SuppressWarnings("unchecked")
 	public void testPage() throws Exception {
-//		// 模拟请求拿到返回值
-//		MvcResult result = mocMvc.perform(MockMvcRequestBuilders.get("/emps").param("pageNumber", "1")).andReturn();
-//		// 请求成功以后，请求域中会有pageInfo
-//		MockHttpServletRequest request = result.getRequest();
-//		PageInfo page = (PageInfo) request.getAttribute("pageInfo");
-//		System.out.println("当前页码" + page.getPageNum());
-//		System.out.println("总页码" + page.getPages());
-//		System.out.println("总记录数" + page.getTotal());
-//		System.out.println("在页面需要连续显示的页码");
-//		for (int i : page.getNavigatepageNums()) {
-//			System.out.println(" " + i);
-//		}
-//		
-//// 		get employee info
-//		List<Employee> emps = page.getList();
-//		for(Employee emp : emps) {
-//			System.out.println("id:"+emp.getEmpId()+"==>name:" +emp.getEmpName());
-//		}
+		// 模拟请求拿到返回值
+		MvcResult result = mocMvc.perform(MockMvcRequestBuilders.get("/emps").param("pageNumber", "1")).andReturn();
+		// 请求成功以后，请求域中会有pageInfo
+		MockHttpServletRequest request = result.getRequest();
+		PageInfo<Employee> page = (PageInfo<Employee>) request.getAttribute("pageInfo");
+		System.out.println("当前页码" + page.getPageNum());
+		System.out.println("总页码" + page.getPages());
+		System.out.println("总记录数" + page.getTotal());
+		System.out.println("在页面需要连续显示的页码");
+		for (int i : page.getNavigatepageNums()) {
+			System.out.println(" " + i);
+		}
+		
+// 		get employee info
+		List<Employee> emps = page.getList();
+		for(Employee emp : emps) {
+			System.out.println("id:"+emp.getEmpId()+"==>name:" +emp.getEmpName());
+		}
 	}
 }

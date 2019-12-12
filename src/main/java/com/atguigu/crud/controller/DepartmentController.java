@@ -13,6 +13,7 @@ import com.atguigu.crud.service.DepartmentService;
 
 /**
  * 处理和部门有关的请求
+ * 
  * @author lmz
  *
  */
@@ -20,11 +21,12 @@ import com.atguigu.crud.service.DepartmentService;
 public class DepartmentController {
 	@Autowired
 	private DepartmentService departmentService;
-	
+
 	/**
 	 * 返回所有的部门信息
-	 *@author lmz
-	 *@date 2019年7月15日-下午2:04:40
+	 * 
+	 * @author lmz
+	 * @date 2019年7月15日-下午2:04:40
 	 * @return
 	 */
 	@RequestMapping("depts")
